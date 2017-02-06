@@ -1,0 +1,30 @@
+{
+  "name": "bubble-sorting",
+  "version": "1.0.0",
+  "description": "bubble sorting algorithm  There are many algorithms that deal with sorting collections of data. One of the most basic forms of sorting is known as Bubble Sort and is named by it's nature of the order of data having a \"bubbling\" effect as a collection of data is sorted. We will start off by implementing a Bubble Sort algorithm on a one-dimensional Array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raaarwwandy/bubble-sorting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raaarwwandy/bubble-sorting/issues"
+  },
+  "homepage": "https://github.com/raaarwwandy/bubble-sorting#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "chai": "^3.5.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0"
+  }
+}
