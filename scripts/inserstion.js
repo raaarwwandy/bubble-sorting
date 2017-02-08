@@ -3,24 +3,21 @@
 let arr = [10, 33, 2, 53, 4];
 
 function inserstionSort(arr){
-let previousPosition = '';
-let valueToInsert = '';
   for(var i = 0; i < arr.length; i++){
-    let valueToInsert = arr[i];
-    //console.log('value to put in',valueToInsert);
-    let previousPosition = i;
-    //console.log('previousValue', previousPosition);
- 
+    var key = arr[i];
+    var j = i-1;
+
+    while(j>=0 && arr[j] >key){
+      arr[j+1] = arr; 
+      j = j -1;
+    }
+    arr[j+1] = key;
   }
 
-  while( previousPosition >  0 && i[previousPosition-1] > valueToInsert)
-    i[previousPosition] = i[previousPosition-1];
-    console.log('checking previous position',i);
-    previousPosition = previousPosition-1;
-    console.log('checking', previousPosition);
+  return arr;
 }
   // return arr[previousPosition] = valueToInsert;
 
-inserstionSort(arr);
+console.log(inserstionSort(arr));
 
 module.exports = inserstionSort;
