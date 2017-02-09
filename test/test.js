@@ -9,6 +9,10 @@ chai.should();
 describe('Data', () =>{
   let array = Sorting.array;
 
+  it('should be a function', () =>{
+    array.should.be.a('function');
+  });
+
   it('should be an array', () =>{
     array.should.be.a('array');
   });
@@ -19,11 +23,3 @@ describe('Data', () =>{
   });
 });
 
-// describe('Quick Sort', () =>{
-//   let array = qucickSort.array;
-
-//   it('qucick sort should be a function', () =>{
-//     array.should.be.a('function');
-//   });
-
-// });
