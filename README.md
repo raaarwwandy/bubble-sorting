@@ -49,7 +49,7 @@ QuickSort is somewhat faster than bubble sort. It looks for a pivot point, typic
 
 ### Psuedo code
 ```s
-functio mergeSort(array){
+function mergeSort(array){
   middle declare your middle point
   left = delcare a empty array for your low values
   right declare an empty arrayf or your large values
@@ -69,3 +69,8 @@ functio mergeSort(array){
     return left concat pivot and concat right
  }
 ```
+## Merge Sort 
+Merg sort further breaks down an array down to a single object. it then starts comparing each object in pairs and slowly merges them into a larger array. 
+  * Big O notation: O(n log n)
+  * Best Case Scenario: 
+  * Worst Case Scenario: 
