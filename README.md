@@ -4,7 +4,7 @@ Here are some of the five most commonly used Sorting Algorithms, and a briefe ex
 
 ## Bubble Sort 
 One of the slowest algorithms to use. It will continually compare each item in the array one by one until it has cleared the array with out having to do a swap. 
-  * Big O notation: O(n^{2})
+  * Big O notation: O(n<sup>2</sup>)
   * Best Case : Small arrays, and some what presorted.
   * Worst Case : Large array to sort through
 
